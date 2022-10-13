@@ -11,6 +11,7 @@ namespace net = boost::asio;
 
 using tcp = boost::asio::ip::tcp;
 
+// browser client => server => client(super app server Master) => server(response print)
 // shared_ptr 형태 => error
 // class session : public std::enable_shared_from_this<session>
 // {
